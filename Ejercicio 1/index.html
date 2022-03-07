@@ -1,0 +1,400 @@
+<HTML>
+    <HEAD>
+    <TITLE>Solicitud de empleo Ejercicio 1</TITLE>
+    </HEAD>
+    <BODY BGCOLOR="#9B9B9B">
+
+    <FIELDSET>
+    <H3><img src="..\Imagenes\icono.png" width="50" height="50"><FONT SIZE="6" face="Script MT Bold">Solicitud de empleo</H3>
+    <TABLE WIDTH="100%" BORDER="5" CELLSPACING="5" CELLPADING="3">
+    <TR>
+        <TD WIDTH="10%"><p>Puesto que solicita <br><INPUT NAME="txtpuesto" TYPE="TEXT" SIZE="20" MAXLENGTH="20"></TD><TD WIDTH="6%">
+        <P>Fecha <br><INPUT NAME="txtfecha" TYPE="date" SIZE="20" MAXLENGTH="20"></td>
+    </TR>
+    <TR>
+        <td rowspan="3"><CENTER>Sea tan amable de llenar en forma manuscrita <br>
+        NOTA: Toda informacion aqui proporcionada sera tratada<br>
+        confidencialmente</CENTER></TD>
+        <TD colspan="3"><P>sueldo mensual deseado <br><INPUT NAME="txtxsueldo" TYPE="number" SIZE="20" MAXLENGTH="20"></td>
+    </TR>
+    <tr>
+        <td colspan="3">Sueldo Mensual Aprobado <br><INPUT NAME="txtaproba" TYPE="number" SIZE="30" MAXLENGTH="30"></TD>
+    </tr>
+    <TR>
+    <td colspan="3">Fecha de contratacion <br><INPUT NAME="txtcontra" TYPE="date" SIZE="30"
+    MAXLENGTH="30"></TD>
+    </TR>
+    </TABLE>
+    </FIELDSET>
+
+    <CENTER>DATOS PERSONALES</CENTER>
+    <TABLE WIDTH="100%" BORDER="2" CELLSPACING="4" CELLPADING="2">
+    <TR>
+    <TD colspan="3" WIDTH="10%"><p>Apellido paterno <INPUT NAME="txtparterno" TYPE="TEXT" SIZE="20" MAXLENGTH="20"> 
+        Apeido materno<INPUT NAME="txtmaterno" TYPE="TEXT" SIZE="20" MAXLENGTH="20">
+        Nombre(s)  <INPUT NAME="txtnombres" TYPE="TEXT" SIZE="20" MAXLENGTH="20"></TD>
+        <TD WIDTH="1%"><p>Edad <INPUT NAME="txtedad" TYPE="TEXT" SIZE="20" MAXLENGTH="20"></TD>
+    </TR>
+    <TR>
+        <TD colspan="2" WIDTH="14%"><p>Domicilio <INPUT NAME="txtDomicilio" TYPE="TEXT" SIZE="20" MAXLENGTH="20"> 
+        Colonia <INPUT NAME="txtcolonia" TYPE="TEXT" SIZE="20" MAXLENGTH="20"> 
+        Codigo postal<INPUT NAME="txtcodigo" TYPE="TEXT" SIZE="10" MAXLENGTH="10"> </TD>
+        <TD WIDTH="1%">Telefono <br><INPUT NAME="txttelefono" TYPE="TEXT" SIZE="20" MAXLENGTH="20"> </TD>
+        <TD WIDTH="1%">Sexo: <B>Masculino<INPUT NAME="cbsex" TYPE="radio" VALUE="MALE">
+        Femenino<INPUT NAME="cbsex" TYPE="radio" VALUE="MALE"></P></TD>
+    </TR>
+    <TR>
+        <TD WIDTH="10%"><p>Ciudad, Estado <br><INPUT NAME="txtestado" TYPE="TEXT" SIZE="20" MAXLENGTH="20"></TD> 
+        <TD WIDTH="10%">Lugar de nacimiento <br><INPUT NAME="txtnacimiento" TYPE="TEXT" SIZE="20" MAXLENGTH="20"></TD>
+        <TD WIDTH="10%">Fecha de nacimiento <br><INPUT NAME="txtfechaNa" TYPE="TEXT" SIZE="20" MAXLENGTH="20"></TD>
+        <TD WIDTH="10%">Nacionalidad <br><INPUT NAME="txtnacionalidad" TYPE="TEXT" SIZE="20" MAXLENGTH="20"></TD>
+    </TR>
+    <TR>
+        <TD colspan="2" WIDTH="10%">Vive con: <B> Sus padres <INPUT NAME="cbvives" TYPE="checkbox" VALUE="MALE">
+        Su familia <INPUT NAME="cbvives" TYPE="checkbox" VALUE="MALE">
+        Parientes <INPUT NAME="cbvives" TYPE="checkbox" VALUE="MALE"> 
+        solo<INPUT NAME="cbvives" TYPE="checkbox" VALUE="MALE"></P>
+        <TD>Estatura <INPUT TYPE="number" NAME="txtestatura"  SIZE="10" MAXLENGTH="10">
+    </td><td>Peso<INPUT TYPE="number" NAME="txtpeso" SIZE="20" MAXLENGTH="20"></TD>
+    <TR>
+        <TD colspan="2" WIDTH="10%">
+        Personas que dependen de usted:<br><b>
+        <INPUT TYPE="checkbox" NAME="raddepend" VALUE="GROUND">Hijos 
+        <INPUT TYPE="checkbox" NAME="raddepend" VALUE="GROUND">Espos@ 
+        <INPUT TYPE="checkbox" NAME="raddepend" VALUE="GROUND">Padres 
+        <INPUT TYPE="checkbox" NAME="raddepend" VALUE="GROUND">Otros</b> 
+        <TD colspan="2" WIDTH="10%">
+        Estado civil:<br><INPUT TYPE="RADIO" NAME="radestado" VALUE="GROUND">Soltero 
+        <INPUT TYPE="RADIO" NAME="radestado" VALUE="GROUND">Casado 
+        <INPUT TYPE="RADIO" NAME="radestado" VALUE="GROUND">Otro(Explique)</tD>
+    </TR>
+    </TABLE>
+    <CENTER>DOCUMENTACION</CENTER>
+    <TABLE WIDTH="100%" BORDER="1" CELLSPACING="4" CELLPADING="2">
+    <TR>
+        <TD colspan="2" WIDTH="10%">Clave Unica del registro de poblacion <br><INPUT NAME="txtclave" TYPE="TEXT" SIZE="45" MAXLENGTH="45"></TD>
+        <TD colspan="2" WIDTH="10%"> Afore <br> <INPUT NAME="txtafore" TYPE="TEXT" SIZE="45" MAXLENGTH="45"> </TD>
+    </TR>
+    <TR>
+        <TD WIDTH="10%">Reg. Fed. de contribuyentes <br><INPUT NAME="txtreg" TYPE="TEXT" SIZE="20" MAXLENGTH="20"></TD>
+        <TD WIDTH="10%">Numero de seguridad social <br><INPUT NAME="txtseguro" TYPE="TEXT" SIZE="20" MAXLENGTH="20"></TD>
+        <TD WIDTH="10%">Cartilla Servicio Militar No. <br><INPUT NAME="txtcartilla" TYPE="TEXT" SIZE="20" MAXLENGTH="20"></TD>
+        <TD WIDTH="10%">Pasaporte No. <br><INPUT NAME="txtpasaporte" TYPE="TEXT" SIZE="20" MAXLENGTH="20"></TD>
+    </TR>
+    <TR>
+        <TD WIDTH="10%">Tiene licencia de manejo: si <INPUT NAME="radlincecia" TYPE="radio" VALUE="lo">
+         no<INPUT NAME="age" TYPE="radio" VALUE="lo"></TD>
+        <TD> Clase y numero de licencia <INPUT NAME="txtlicencia" TYPE="TEXT" SIZE="30" MAXLENGTH="30"></TD>
+        <TD colspan="2">Siendo extranjero que documento<BR> le permite trabajar en el pais <INPUT NAME="txtextrangero" TYPE="TEXT" SIZE="65" MAXLENGTH="65"></TD>
+    </TABLE>
+    
+    <FONT SIZE="5"><center>Estado de salud y estado personales </center></B></FONT></LEGEND>
+    <TABLE WIDTH="100%" BORDER="1" CELLSPACING="4" CELLPADING="2">
+    <TR>
+        <TD WIDTH="10%"> ¿Como considera su estado de salud actual?<BR>
+        <INPUT TYPE="RADIO" NAME="radestado" VALUE="GROUND"> Bueno 
+        <INPUT TYPE="RADIO" NAME="radestado"VALUE="GROUND">
+        Regular <INPUT TYPE="RADIO" NAME="radestado" VALUE="GROUND">Malo</TD> 
+        <TD colspan="2" WIDTH="10%">¿Padese alguna enfermedad cronica?<br><INPUT TYPE="RADIO" NAME="radenfermedad" VALUE="GROUND">No 
+        <INPUT TYPE="RADIO" NAME="radenfermedad" VALUE="GROUND">Si (explique)
+        <INPUT NAME="txtenfermedad" TYPE="TEXT" SIZE="20" MAXLENGTH="20"></TD> 
+    <TR>
+        <TD WIDTH="10%">¿Practica usted algun deporte? <br><INPUT NAME="txtdeporte" TYPE="TEXT" SIZE="20" MAXLENGTH="20"></TD>
+        <TD>¿Pertenece a algun club social o deportivo? <br><INPUT NAME="txtclub" TYPE="TEXT" SIZE="20" MAXLENGTH="20"></TD>
+        <TD>¿Cual es su pasa tiempo favorito? <br><INPUT NAME="txtgobi" TYPE="TEXT" SIZE="20" MAXLENGTH="20"></TD>
+    </TR>
+    <TR>
+        <TD colspan="3" WIDTH="10%">¿Cual es su meta en la vida? <br><INPUT NAME="txtmeta" TYPE="TEXT" SIZE="100" MAXLENGTH="100"></TD>
+    </TR>
+    </TABLE>
+    <FONT SIZE="5"><CENTER>DATOS FAMILIARES</CENTER></FONT>
+    <TABLE WIDTH="100%" BORDER="1" CELLSPACING="4" CELLPADING="2">
+    
+    <TR>
+    <TDWIDTH="10%"><td><B><CENTER>NOMBRE</B></TD> 
+        <TD WIDTH="2%"><B><CENTER>VIVE<B><CENTER>FINADO</TD>
+        <TD WIDTH="15%"><CENTER><B>DOMICILIO</TD><TD WIDTH="8%"><CENTER><B>OCUPACION </TD>
+    </TR>
+    <TR>
+        <TD WIDTH="10%">Padre <br> <INPUT NAME="txtnombre" TYPE="TEXT" SIZE="20" MAXLENGTH="20"></td>
+        <TD>v <INPUT NAME="radvive" TYPE="radio" SIZE="3" MAXLENGTH="3">f
+        <INPUT NAME="radvive" TYPE="radio" SIZE="3" MAXLENGTH="3"></TD> 
+        <TD><INPUT NAME="txtdomi" TYPE="TEXT" SIZE="50" MAXLENGTH="50"></TD>
+        <TD><INPUT NAME="txtocupacion" TYPE="TEXT" SIZE="50" MAXLENGTH="50"></TD>
+    </TR>
+    <TR>
+        <TD WIDTH="10%">Madre <br> <INPUT NAME="txtnombre" TYPE="TEXT" SIZE="20" MAXLENGTH="20"></td>
+        <TD>v <INPUT NAME="radvive" TYPE="radio" SIZE="3" MAXLENGTH="3">f
+        <INPUT NAME="radvive" TYPE="radio" SIZE="3" MAXLENGTH="3"></TD>
+        <TD><INPUT NAME="txtdomi" TYPE="TEXT" SIZE="50" MAXLENGTH="50"></TD>
+        <TD><INPUT NAME="txtocupacion" TYPE="TEXT" SIZE="50"
+        MAXLENGTH="50"></TD>
+    </TR>
+    <TR>
+        <TD WIDTH="10%">Esposa(o) <br><INPUT NAME="txtnombre" TYPE="TEXT" SIZE="20" MAXLENGTH="20"></td>
+        <TD>v <INPUT NAME="radvive" TYPE="radio" SIZE="3" MAXLENGTH="3">f
+        <INPUT NAME="radvive" TYPE="radio" SIZE="3" MAXLENGTH="3"></TD>
+        <TD><INPUT NAME="txtdomi" TYPE="TEXT" SIZE="50" MAXLENGTH="50"></TD>
+        <TD><INPUT NAME="txtocupacion" TYPE="TEXT" SIZE="50" MAXLENGTH="50"></TD>
+    </TR>
+    <TR>
+        <TD colspan="3">Nombre y edad de los hijos <br><INPUT NAME="snum" TYPE="TEXT" SIZE="150" MAXLENGTH="150"></td><TD> 
+    </TR>
+    </TABLE>
+    <FONT SIZE="5"><CENTER>Escolaridad</CENTER></FONT>
+    <TABLE WIDTH="100%" BORDER="1" CELLSPACING="6" CELLPADING="2">
+    <TR>
+        <TDWIDTH="10%"><td><B><CENTER>NOMBRE</B></TD> 
+        <TD WIDTH="30%"><B><CENTER>Direccion<B></TD>
+        <TD WIDTH="8%"><CENTER><B>De</TD>
+        <TD WIDTH="8%"><CENTER><B>A </TD>
+        <TD WIDTH="8%"><CENTER><B>Años </TD>
+        <TD WIDTH="15%"><CENTER><B>Titulo resivido </TD>
+    </TR>
+    <TR>
+        <TD WIDTH="10%">Primaria <br><INPUT NAME="txtprimaria" TYPE="TEXT" SIZE="20" MAXLENGTH="20"></td>
+        <TD><INPUT NAME="txtprimaria" TYPE="TEXT" SIZE="40" MAXLENGTH="40"></TD>
+        <TD><INPUT NAME="txtprimaria" TYPE="number" SIZE="5" MAXLENGTH="5"></TD>
+        <TD><INPUT NAME="txtprimaria" TYPE="number" SIZE="5" MAXLENGTH="5"></TD>
+        <TD><INPUT NAME="txtprimaria" TYPE="number" SIZE="5" MAXLENGTH="5"></TD>
+        <TD><INPUT NAME="txtprimaria" TYPE="TEXT" SIZE="20" MAXLENGTH="20"></TD>
+    </TR>
+    <TR>
+        <TD WIDTH="10%">Secundaria <br><INPUT NAME="txtsecundaria" TYPE="TEXT" SIZE="20" MAXLENGTH="20"></td>
+        <TD><INPUT NAME="txtsecundaria" TYPE="TEXT" SIZE="40" MAXLENGTH="40"></TD>
+        <TD><INPUT NAME="txtsecundaria" TYPE="number" SIZE="5" MAXLENGTH="5"></TD>
+        <TD><INPUT NAME="txtsecundaria" TYPE="number" SIZE="5" MAXLENGTH="5"></TD>
+        <TD><INPUT NAME="txtsecundaria" TYPE="number" SIZE="5" MAXLENGTH="5"></TD>
+        <TD><INPUT NAME="txtsecundaria" TYPE="TEXT" SIZE="20" MAXLENGTH="20"></TD>
+    </TR>
+    <TR>
+        <TD WIDTH="10%">Preparatoria <br><INPUT NAME="txtprepa" TYPE="TEXT" SIZE="20" MAXLENGTH="20"></td>
+        <TD><INPUT NAME="txtprepa" TYPE="TEXT" SIZE="40" MAXLENGTH="40"></TD>
+        <TD><INPUT NAME="txtprepa" TYPE="number" SIZE="5" MAXLENGTH="5"></TD>
+        <TD><INPUT NAME="txtprepa" TYPE="number" SIZE="5" MAXLENGTH="5"></TD>
+        <TD><INPUT NAME="txtprepa" TYPE="number" SIZE="5" MAXLENGTH="5"></TD>
+        <TD><INPUT NAME="txtprepa" TYPE="TEXT" SIZE="20" MAXLENGTH="20"></TD>
+    </TR>
+    <TR>
+        <TD WIDTH="10%">Profecional <br><INPUT NAME="txtprofecional" TYPE="TEXT" SIZE="20" MAXLENGTH="20"></td>
+        <TD><INPUT NAME="txtprofecional" TYPE="TEXT" SIZE="40" MAXLENGTH="40"></TD>
+        <TD><INPUT NAME="txtprofecional" TYPE="number" SIZE="5" MAXLENGTH="5"></TD>
+        <TD><INPUT NAME="txtprofecional" TYPE="number" SIZE="5" MAXLENGTH="5"></TD>
+        <TD><INPUT NAME="txtprofecional" TYPE="number" SIZE="5" MAXLENGTH="5"></TD>
+        <TD><INPUT NAME="txtprofecional" TYPE="TEXT" SIZE="20" MAXLENGTH="20"></TD>
+    </TR>
+    <TR>
+        <TD WIDTH="10%">Comercial u otros <br><INPUT NAME="txtcomercial" TYPE="TEXT" SIZE="20" MAXLENGTH="20"></td>
+        <TD><INPUT NAME="txtcomercial" TYPE="TEXT" SIZE="40" MAXLENGTH="40"></TD>
+        <TD><INPUT NAME="txtcomercial" TYPE="number" SIZE="5" MAXLENGTH="5"></TD>
+        <TD><INPUT NAME="txtcomercial" TYPE="number" SIZE="5" MAXLENGTH="5"></TD>
+        <TD><INPUT NAME="txtcomercial" TYPE="number" SIZE="5" MAXLENGTH="5"></TD>
+        <TD><INPUT NAME="txtcomercial" TYPE="TEXT" SIZE="20" MAXLENGTH="20"></TD>
+    </TR>
+    <td colspan="6">que esta efectuando en la actualidad: <br>
+    Escuela <INPUT NAME="txtescula" TYPE="TEXT" SIZE="30" MAXLENGTH="30">
+    Horarios <INPUT NAME="txthorarios" TYPE="TEXT" SIZE="30" MAXLENGTH="30">
+    Curso o carrera <INPUT NAME="txtcurso" TYPE="TEXT" SIZE="30" MAXLENGTH="30">
+    Grado <INPUT NAME="txtgrado" TYPE="TEXT" SIZE="10" MAXLENGTH="10">
+    </TABLE>
+
+    <FONT SIZE="5"><CENTER>Conocimientos Generales</CENTER></FONT>
+    <TABLE WIDTH="100%" BORDER="1" CELLSPACING="3" CELLPADING="2">
+    <TR>
+        <TD>Que idiomas dominas               (100%, 75%, 50%) <br><INPUT NAME="txtidioma" TYPE="TEXT" SIZE="70" MAXLENGTH="50"></TD>
+        <TD>Funciones de oficina que domina <br><INPUT NAME="txtfunciones" TYPE="TEXT" SIZE="70" MAXLENGTH="70"></TD>
+    </TR>
+    <TR>
+        <TD>Maquina de Oficina o taller que sepa manejar <br><INPUT NAME="txtfunciones" TYPE="TEXT" SIZE="70" MAXLENGTH="50"></TD>
+        <TD>Software que conoce <br><INPUT NAME="txtfunciones" TYPE="TEXT" SIZE="70" MAXLENGTH="50"></TD>
+    </TR>
+    <TR>
+        <TD>Otros trabajos o funciones que domina <br><INPUT NAME="txtotros" TYPE="TEXT" SIZE="100" MAXLENGTH="100"></TD>
+    </TR>
+    </TABLE>
+    
+    <FONT SIZE="5"><CENTER>Empleo Actual y Anteriores</CENTER></FONT>
+    <TABLE WIDTH="100%" BORDER="1" CELLSPACING="6" CELLPADING="2">
+    <TR>
+        <TDWIDTH="10%"><td><B><CENTER>Concepto</B></TD> 
+        <TD WIDTH="20%"><B><CENTER>Actual o ultimo<B></TD>
+        <TD WIDTH="20%"><CENTER><B>Anterior</TD>
+        <TD WIDTH="20%"><CENTER><B>Anterior </TD>
+        <TD WIDTH="20%"><CENTER><B>Anterior</TD>
+    </TR>
+    <TR>
+        <TD WIDTH="10%">Tiempo de tiempo prestado por sus servicios</td>
+        <TD>de-------------------a<br><INPUT NAME="txtservicios" TYPE="TEXT" SIZE="10" MAXLENGTH="10"><INPUT NAME="txtservicios" TYPE="TEXT" SIZE="10" MAXLENGTH="10"></TD>
+        <TD>de-------------------a<br><INPUT NAME="txtservicios" TYPE="TEXT" SIZE="10" MAXLENGTH="10"><INPUT NAME="txtservicios" TYPE="TEXT" SIZE="10" MAXLENGTH="10"></TD>
+        <TD>de-------------------a<br><INPUT NAME="txtservicios" TYPE="TEXT" SIZE="10" MAXLENGTH="10"><INPUT NAME="txtservicios" TYPE="TEXT" SIZE="10" MAXLENGTH="10"></TD>
+        <TD>de-------------------a<br><INPUT NAME="txtservicios" TYPE="TEXT" SIZE="10" MAXLENGTH="10"><INPUT NAME="txtservicios" TYPE="TEXT" SIZE="10" MAXLENGTH="10"></TD>
+    </TR>
+    <TR>
+        <TD WIDTH="10%">Nombre de la Compañía</td>
+        <TD><INPUT NAME="txtservicios" TYPE="TEXT" SIZE="30" MAXLENGTH="30"></TD>
+        <TD><INPUT NAME="txtservicios" TYPE="TEXT" SIZE="30" MAXLENGTH="30"></TD>
+        <TD><INPUT NAME="txtservicios" TYPE="TEXT" SIZE="30" MAXLENGTH="30"></TD>
+        <TD><INPUT NAME="txtservicios" TYPE="TEXT" SIZE="30" MAXLENGTH="30"></TD>
+    </TR>
+    <TR>
+        <TD WIDTH="10%">Dirección</td>
+            <TD><INPUT NAME="txtservicios" TYPE="TEXT" SIZE="30" MAXLENGTH="30"></TD>
+                <TD><INPUT NAME="txtservicios" TYPE="TEXT" SIZE="30" MAXLENGTH="30"></TD>
+                <TD><INPUT NAME="txtservicios" TYPE="TEXT" SIZE="30" MAXLENGTH="30"></TD>
+                <TD><INPUT NAME="txtservicios" TYPE="TEXT" SIZE="30" MAXLENGTH="30"></TD>
+    </TR>
+    <TR>
+        <TD WIDTH="10%">Teléfono</td>
+            <TD><INPUT NAME="txtservicios" TYPE="TEXT" SIZE="30" MAXLENGTH="30"></TD>
+                <TD><INPUT NAME="txtservicios" TYPE="TEXT" SIZE="30" MAXLENGTH="30"></TD>
+                <TD><INPUT NAME="txtservicios" TYPE="TEXT" SIZE="30" MAXLENGTH="30"></TD>
+                <TD><INPUT NAME="txtservicios" TYPE="TEXT" SIZE="30" MAXLENGTH="30"></TD>
+    </TR>
+    <TR>
+        <TD WIDTH="10%">Puesto desempeñado</td>
+            <TD><INPUT NAME="txtservicios" TYPE="TEXT" SIZE="30" MAXLENGTH="30"></TD>
+                <TD><INPUT NAME="txtservicios" TYPE="TEXT" SIZE="30" MAXLENGTH="30"></TD>
+                <TD><INPUT NAME="txtservicios" TYPE="TEXT" SIZE="30" MAXLENGTH="30"></TD>
+                <TD><INPUT NAME="txtservicios" TYPE="TEXT" SIZE="30" MAXLENGTH="30"></TD>
+    </TR>
+    <TR>
+        <TD WIDTH="10%">Sueldos Mensual:</td>
+        <TD>Inicio-------------------final<br><INPUT NAME="txtservicios" TYPE="TEXT" SIZE="10" MAXLENGTH="10"><INPUT NAME="txtservicios" TYPE="TEXT" SIZE="10" MAXLENGTH="10"></TD>
+        <TD>Inicio-------------------final<br><INPUT NAME="txtservicios" TYPE="TEXT" SIZE="10" MAXLENGTH="10"><INPUT NAME="txtservicios" TYPE="TEXT" SIZE="10" MAXLENGTH="10"></TD>
+        <TD>Inicio-------------------final<br><INPUT NAME="txtservicios" TYPE="TEXT" SIZE="10" MAXLENGTH="10"><INPUT NAME="txtservicios" TYPE="TEXT" SIZE="10" MAXLENGTH="10"></TD>
+        <TD>Inicio-------------------final<br><INPUT NAME="txtservicios" TYPE="TEXT" SIZE="10" MAXLENGTH="10"><INPUT NAME="txtservicios" TYPE="TEXT" SIZE="10" MAXLENGTH="10"></TD>
+    </TR>
+    <TR>
+        <TD WIDTH="10%">Motivo de la separacion </td>
+            <TD><INPUT NAME="txtservicios" TYPE="TEXT" SIZE="30" MAXLENGTH="30"></TD>
+                <TD><INPUT NAME="txtservicios" TYPE="TEXT" SIZE="30" MAXLENGTH="30"></TD>
+                <TD><INPUT NAME="txtservicios" TYPE="TEXT" SIZE="30" MAXLENGTH="30"></TD>
+                <TD><INPUT NAME="txtservicios" TYPE="TEXT" SIZE="30" MAXLENGTH="30"></TD>
+    </TR>
+    <TR>
+        <TD WIDTH="10%">Nombre de su jefe directo</td>
+            <TD><INPUT NAME="txtservicios" TYPE="TEXT" SIZE="30" MAXLENGTH="30"></TD>
+                <TD><INPUT NAME="txtservicios" TYPE="TEXT" SIZE="30" MAXLENGTH="30"></TD>
+                <TD><INPUT NAME="txtservicios" TYPE="TEXT" SIZE="30" MAXLENGTH="30"></TD>
+                <TD><INPUT NAME="txtservicios" TYPE="TEXT" SIZE="30" MAXLENGTH="30"></TD>
+    </TR>
+    <TR>
+        <TD WIDTH="10%">Puesto de de jefe directo</td>
+            <TD><INPUT NAME="txtservicios" TYPE="TEXT" SIZE="30" MAXLENGTH="30"></TD>
+                <TD><INPUT NAME="txtservicios" TYPE="TEXT" SIZE="30" MAXLENGTH="30"></TD>
+                <TD><INPUT NAME="txtservicios" TYPE="TEXT" SIZE="30" MAXLENGTH="30"></TD>
+                <TD><INPUT NAME="txtservicios" TYPE="TEXT" SIZE="30" MAXLENGTH="30"></TD>
+    </TR>
+    <TR>
+        <td>Podemos contactarlo <br><INPUT NAME="radvive" TYPE="radio" SIZE="3" MAXLENGTH="3"> si
+        <br><INPUT NAME="radvive" TYPE="radio" SIZE="3" MAXLENGTH="3"> no razones</td> 
+        <td colspan="4">Comentario del jefe <br><INPUT NAME="txtcomentario" TYPE="TEXT" SIZE="150" MAXLENGTH="150"></td>
+    </TR>
+    </TABLE>
+    
+    <FONT SIZE="5"><CENTER>Referencias Personales (Favor de no incluir a jefes anteriores)</CENTER></FONT>
+    <TABLE WIDTH="100%" BORDER="1" CELLSPACING="6" CELLPADING="2">
+    <TR>
+        <TDWIDTH="10%"><td><B><CENTER>Nombre</B></TD> 
+        <TD WIDTH="20%"><B><CENTER>Domicilio<B></TD>
+        <TD WIDTH="20%"><CENTER><B>Telefono</TD>
+        <TD WIDTH="20%"><CENTER><B>Ocupacion </TD>
+        <TD WIDTH="20%"><CENTER><B>Tiempo de conocerlo</TD>
+    </TR>
+    <TR>
+        <TD><INPUT NAME="txtservicios" TYPE="TEXT" SIZE="30" MAXLENGTH="30"></TD>
+        <TD><INPUT NAME="txtservicios" TYPE="TEXT" SIZE="30" MAXLENGTH="30"></TD>
+        <TD><INPUT NAME="txtservicios" TYPE="TEXT" SIZE="30" MAXLENGTH="30"></TD>
+        <TD><INPUT NAME="txtservicios" TYPE="TEXT" SIZE="30" MAXLENGTH="30"></TD>
+            <TD><INPUT NAME="txtservicios" TYPE="TEXT" SIZE="30" MAXLENGTH="30"></TD>
+    </TR>
+    <TR>
+        <TD><INPUT NAME="txtservicios" TYPE="TEXT" SIZE="30" MAXLENGTH="30"></TD>
+        <TD><INPUT NAME="txtservicios" TYPE="TEXT" SIZE="30" MAXLENGTH="30"></TD>
+        <TD><INPUT NAME="txtservicios" TYPE="TEXT" SIZE="30" MAXLENGTH="30"></TD>
+        <TD><INPUT NAME="txtservicios" TYPE="TEXT" SIZE="30" MAXLENGTH="30"></TD>
+            <TD><INPUT NAME="txtservicios" TYPE="TEXT" SIZE="30" MAXLENGTH="30"></TD>
+    </TR>
+    <TR>
+        <TD><INPUT NAME="txtservicios" TYPE="TEXT" SIZE="30" MAXLENGTH="30"></TD>
+        <TD><INPUT NAME="txtservicios" TYPE="TEXT" SIZE="30" MAXLENGTH="30"></TD>
+        <TD><INPUT NAME="txtservicios" TYPE="TEXT" SIZE="30" MAXLENGTH="30"></TD>
+        <TD><INPUT NAME="txtservicios" TYPE="TEXT" SIZE="30" MAXLENGTH="30"></TD>
+            <TD><INPUT NAME="txtservicios" TYPE="TEXT" SIZE="30" MAXLENGTH="30"></TD>
+    </TR>
+    </TABLE>
+
+    <FONT SIZE="5"><CENTER>Datos generales------------------Datos economicos</CENTER></FONT>
+    <TABLE WIDTH="100%" BORDER="1" CELLSPACING="6" CELLPADING="2">
+    <TR>
+        <td>Como supo de este empleo <br><INPUT NAME="radvive" TYPE="radio" SIZE="3" MAXLENGTH="3"> Anumcio
+            <INPUT NAME="radvive" TYPE="radio" SIZE="3" MAXLENGTH="3"> otro medios (anotelo)<INPUT NAME="txtservicios" TYPE="TEXT" SIZE="40" MAXLENGTH="40"></td>
+        <td>Usted tiene ingreso mensual--------------------------------------------------------importe$<br><INPUT NAME="radvive" TYPE="radio" SIZE="3" MAXLENGTH="3"> no
+            <INPUT NAME="radvive" TYPE="radio" SIZE="3" MAXLENGTH="3"> Si (describa)<INPUT NAME="txtservicios" TYPE="TEXT" SIZE="30" MAXLENGTH="30">
+            <INPUT NAME="txtservicios" TYPE="TEXT" SIZE="30" MAXLENGTH="30"></td>
+    </TR>
+    <TR>
+        <td>¿Tiene parientes trabajando en esta Empresa? <br><INPUT NAME="radvive" TYPE="radio" SIZE="3" MAXLENGTH="3"> no
+            <INPUT NAME="radvive" TYPE="radio" SIZE="3" MAXLENGTH="3"> si (Nombrelos)<INPUT NAME="txtservicios" TYPE="TEXT" SIZE="40" MAXLENGTH="40"></td>
+        <td>¿Su cónyuge trabaja?---------------------------------------------------------Percepción mensual$<br>
+            <INPUT NAME="radvive" TYPE="radio" SIZE="3" MAXLENGTH="3"> no
+            <INPUT NAME="radvive" TYPE="radio" SIZE="3" MAXLENGTH="3"> Si (donde)<INPUT NAME="txtservicios" TYPE="TEXT" SIZE="30" MAXLENGTH="30">
+            <INPUT NAME="txtservicios" TYPE="TEXT" SIZE="30" MAXLENGTH="30"></td>
+    </TR>
+    <TR>
+        <td>¿Ha estado afianzado? <br><INPUT NAME="radvive" TYPE="radio" SIZE="3" MAXLENGTH="3"> no
+            <INPUT NAME="radvive" TYPE="radio" SIZE="3" MAXLENGTH="3"> si (nombre de la Cía)<INPUT NAME="txtservicios" TYPE="TEXT" SIZE="40" MAXLENGTH="40"></td>
+        <td>¿Vive en casa propia?--------------------------------------------------------Valor aproximado<br><INPUT NAME="radvive" TYPE="radio" SIZE="3" MAXLENGTH="3"> no
+            <INPUT NAME="radvive" TYPE="radio" SIZE="3" MAXLENGTH="3"> Si <INPUT NAME="txtservicios" TYPE="TEXT" SIZE="30" MAXLENGTH="30">
+            <INPUT NAME="txtservicios" TYPE="TEXT" SIZE="30" MAXLENGTH="30"></td>
+    </TR>
+    <TR>
+        <td>¿Ha estado afiliado a algún sindicato? <br><INPUT NAME="radvive" TYPE="radio" SIZE="3" MAXLENGTH="3"> no
+            <INPUT NAME="radvive" TYPE="radio" SIZE="3" MAXLENGTH="3"> si (Cual?)<INPUT NAME="txtservicios" TYPE="TEXT" SIZE="40" MAXLENGTH="40"></td>
+        <td>¿Paga renta?----------------------------------------------------------Modelo<br><INPUT NAME="radvive" TYPE="radio" SIZE="3" MAXLENGTH="3"> no
+            <INPUT NAME="radvive" TYPE="radio" SIZE="3" MAXLENGTH="3"> Si (Marca)<INPUT NAME="txtservicios" TYPE="TEXT" SIZE="30" MAXLENGTH="30">
+            <INPUT NAME="txtservicios" TYPE="TEXT" SIZE="30" MAXLENGTH="30"></td>
+    </TR>
+    <TR>
+        <td>¿Tiene seguro de vida? <br><INPUT NAME="radvive" TYPE="radio" SIZE="3" MAXLENGTH="3"> no
+            <INPUT NAME="radvive" TYPE="radio" SIZE="3" MAXLENGTH="3"> si (nombre de la Cía)<INPUT NAME="txtservicios" TYPE="TEXT" SIZE="40" MAXLENGTH="40"></td>
+        <td>¿Tiene deudas?------------------------------------------------------------importe$<br><INPUT NAME="radvive" TYPE="radio" SIZE="3" MAXLENGTH="3"> no
+            <INPUT NAME="radvive" TYPE="radio" SIZE="3" MAXLENGTH="3"> Si (con quien)<INPUT NAME="txtservicios" TYPE="TEXT" SIZE="30" MAXLENGTH="30">
+            <INPUT NAME="txtservicios" TYPE="TEXT" SIZE="30" MAXLENGTH="30"></td>
+    </TR>
+    <TR>
+        <td>¿Puede viajar? <br><INPUT NAME="radvive" TYPE="radio" SIZE="3" MAXLENGTH="3"> si
+            <INPUT NAME="radvive" TYPE="radio" SIZE="3" MAXLENGTH="3"> no (razones)<INPUT NAME="txtservicios" TYPE="TEXT" SIZE="40" MAXLENGTH="40"></td>
+        <td>¿Tiene deudas?--------------------------------------------------------importe$<br><INPUT NAME="radvive" TYPE="radio" SIZE="3" MAXLENGTH="3"> no
+            <INPUT NAME="radvive" TYPE="radio" SIZE="3" MAXLENGTH="3"> Si (quien)<INPUT NAME="txtservicios" TYPE="TEXT" SIZE="30" MAXLENGTH="30">
+            <INPUT NAME="txtservicios" TYPE="TEXT" SIZE="30" MAXLENGTH="30"></td>
+    </TR>
+    <tr>
+        <td>¿Esta dispuesto a cambia de lugar de residencia?<br><INPUT NAME="radvive" TYPE="radio" SIZE="3" MAXLENGTH="3"> si
+            <INPUT NAME="radvive" TYPE="radio" SIZE="3" MAXLENGTH="3"> no (razones)<INPUT NAME="txtservicios" TYPE="TEXT" SIZE="40" MAXLENGTH="40"></td>
+        <td>Cuando abono Mensual? <br> $<INPUT NAME="txtservicios" TYPE="number" SIZE="30" MAXLENGTH="30"></td>
+    </tr>
+    <tr>
+        <td>Fecha en que podría presentarse a trabajar <br> <INPUT NAME="txtservicios" TYPE="text" SIZE="30" MAXLENGTH="30"></td>
+            <td> ¿A cuánto ascienden sus gastos mensuales?<br> <INPUT NAME="txtservicios" TYPE="number" SIZE="30" MAXLENGTH="30"></td>
+        </tr>
+    </TABLE>
+
+    <FONT SIZE="5">Comentarios del Entrevistador y Firma</FONT>
+    <TABLE WIDTH="100%" BORDER="1" CELLSPACING="6" CELLPADING="2">
+    <TR>
+        <td><INPUT NAME="txtservicios" TYPE="text" SIZE="50" MAXLENGTH="50"></td> 
+            <td rowspan="2"> constar que mis respuestas son verdaderas <br> <br> <INPUT NAME="txtservicios" TYPE="text" SIZE="50" MAXLENGTH="50"> <br>
+                Firma del solicitante</td>
+        </TR>
+        <TR>
+            <td><INPUT NAME="txtservicios" TYPE="text" SIZE="50" MAXLENGTH="50"></td>
+            </TR>
+    </TABLE>
+
+
+    <input type="submit"> <VALUE="SEND ORDER">
+    <INPUT TYPE="RESET">
+    </BODY>
+    </html>
+    
